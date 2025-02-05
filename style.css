@@ -1,0 +1,284 @@
+/* Common CSS Start */
+
+body {
+	margin: 0;
+	font-family: "Playfair Display", serif;
+	font-size: 16px;
+	font-weight: 400;
+	color: #626262;
+}
+
+/* Common CSS End */
+
+/* Header CSS Start */
+
+header {
+	padding: 40px 0px;
+}
+
+.container {
+	margin: 0 auto;
+	overflow: hidden;
+	width: 90%;
+	
+}
+
+.logo {
+	margin-top: 8px;
+	float: left;
+	width: 12%;
+}
+
+.logo a {
+	
+}
+
+.logo a img {
+	width: 100%;
+}
+
+.menu {
+	float: right;
+	width: 75%;
+
+}
+
+.menu ul {
+	float: right;
+}
+
+
+.menu ul li {
+	float: left;
+	list-style: none;
+
+}
+
+.menu ul li a {
+	margin: 0px 50px;
+	display: inline-block;
+	color: #626262;
+	text-decoration: none;
+	text-transform: uppercase;
+	border-bottom: 1px solid transparent;
+	transition: .33s linear;
+}
+
+.menu ul li:last-child a {
+	margin-right: 0px;
+}
+
+.menu ul li a:hover {
+	color: #000000;
+	border-bottom: 1px solid #626262;
+}
+
+/* Header CSS End */
+
+/* Banner Section CSS Start */
+
+.banner {}
+
+.banner-img {}
+
+.banner-img img {
+	width: 100%;
+}
+
+/* Banner Section CSS End */
+
+/* Article Section CSS Start */
+
+.article {
+	padding: 100px 0px 30px;
+}
+
+.container2 {
+	margin: 0 auto;
+	overflow: hidden;
+	width: 80%;
+}
+
+.a_content {}
+
+.c_link {
+	display: inline-block;
+	 font-family: "Ubuntu", serif;
+	 font-size: 14px;
+	 font-weight: 300;
+	 color: #626262;
+	 text-decoration: none;
+	 text-transform: uppercase;
+}
+
+.c_header {
+	margin: 20px 0px 30px;
+	font-size: 30px;
+	font-weight: 400;
+}
+
+.c_text {
+	margin: 0;
+	line-height: 24px;
+}
+
+.comment {
+	margin-top: 45px;
+}
+/* Article Section CSS End */
+
+/* Blog Section CSS Start */
+
+.blog {
+	padding: 0 0 100px;
+}
+
+.blog_item {
+	margin-top: 70px;
+	box-sizing: border-box;
+	float: left;
+	width: 47%;
+}
+
+.blog_item:nth-child(even) {
+	margin-left: 6%;
+}
+
+.blog_image {
+	margin-bottom: 25px;
+}
+
+.blog_image img {
+	width: 100%;
+}
+/* Blog Section CSS End */
+
+
+/* Newsletter Section CSS Start */
+
+.news {
+  background-color: #f0f0f0;
+  padding: 70px 0;
+}
+
+.signup {
+  text-align: center;
+}
+
+.s_h1 {
+  color: #333333;
+  margin-top: 0;
+  margin-bottom: 70px;
+}
+
+.s_form {
+  position: relative;
+  width: 400px;
+  margin: 0 auto;
+}
+
+.s_form input {
+	font-family: "Playfair Display", serif;
+	font-size: 14px;
+	color: #626262;
+	width: 345px;
+	height: 45px;
+	border: none;
+	border-bottom: 1px solid #000000;
+	background-color: transparent;
+	padding-left: 5px;
+	padding-right: 45px;
+}
+
+.s_form button {
+	position: absolute;
+	background: transparent;
+	border: none;
+	cursor: pointer;
+	top: 15px;
+	right: 0;
+}
+
+/* Newsletter Section CSS Start */
+
+/* Load More Button CSS Start */
+
+.load {
+	padding: 150px 0 100px;
+	text-align: center;
+}
+
+.l_btn {
+	width: 165px;
+	height: 60px;
+	background-color: transparent;
+	border-radius: 0;
+	border: 1px solid #626262;
+	font-family: "Playfair Display", serif;
+	font-size: 20px;
+	font-weight: 400;
+	color: #626262;
+	cursor: pointer;
+	transition: .33s linear;
+}
+
+.l_btn:hover {
+	color: white;
+	background-color: #626262;
+}
+
+/* Load More Button CSS End */
+
+/* Footer Section CSS Start */
+
+.footer {
+	background-color: #f0f0f0;
+	padding: 30px 0;
+}
+
+.pages {
+	/* border: 1px solid green; */
+	width: 20%;
+}
+
+.pages ul {
+	width: 100%;
+	float: left;
+}
+
+.pages ul li {
+	list-style: none;
+	float: left;
+}
+
+.pages ul li a {
+	color: #202020;
+	text-decoration: none;
+	margin: 0px 5px;
+	display: inline-block;
+	transition: .33s linear;
+}
+
+.social {
+	width: 18%;
+	float: right;
+}
+
+.social ul {
+	width: 100%;
+	float: right;
+}
+
+.social ul li {
+	list-style: none;
+	float: left;
+}
+
+.social ul li a {
+	color: #202020;
+	text-decoration: none;
+	margin: 0px 5px;
+	display: inline-block;
+	transition: .33s linear;
+}
+/* Footer Section CSS End */
